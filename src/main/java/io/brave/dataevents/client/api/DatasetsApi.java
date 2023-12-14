@@ -90,9 +90,8 @@ public class DatasetsApi {
         final String localVarAccept = apiClient.selectHeaderAccept(localVarAccepts);
         if (localVarAccept != null) localVarHeaderParams.put("Accept", localVarAccept);
 
-        final String[] localVarContentTypes = {
-            
-        };
+        final String[] localVarContentTypes = {};
+        
         final String localVarContentType = apiClient.selectHeaderContentType(localVarContentTypes);
         localVarHeaderParams.put("Content-Type", localVarContentType);
 
